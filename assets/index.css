@@ -1,0 +1,36 @@
+@import "./fonts/stylesheet.css";
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+html,
+body,
+#__nuxt {
+  height: 100vh;
+  color: white;
+  font-family: "montserrat";
+  background-color: #86a8db;
+}
+
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #378362;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #48ad82;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #48ad82;
+}
